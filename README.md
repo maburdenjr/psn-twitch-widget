@@ -9,4 +9,4 @@
 
 ### Screenshot of Completed Assessment
 
-![https://github.com/maburdenjr/psn-twitch-widget/blob/master/images/screenshot.png]
+![PSN Twitch Api Widget](https://github.com/maburdenjr/psn-twitch-widget/blob/master/images/screenshot.png)
