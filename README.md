@@ -6,3 +6,7 @@
 * All UI elements are mandatory and self-explanatory
 * Feel free to add more/better UI, as long as you include the mandatory elements
 * No frameworks like jQuery/AngularJS.  Just vanilla JS with XHR to hit the API.
+
+### Screenshot of Completed Assessment
+
+![https://github.com/maburdenjr/psn-twitch-widget/blob/master/images/screenshot.png]
