@@ -1,0 +1,56 @@
+@media (max-width: 775px) {
+
+    .container {
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #playstationHeader {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .twitchLogo, .twitchSearchOptions {
+        display: none;
+    }
+    .twitchSearch {
+        width: 300px;
+    }
+    #twitchApiSearchQuery {
+        width: 185px;
+    }
+
+    .ps4 img {
+        max-width: 200px;
+    }
+
+    .streamContainer {
+        position: relative;
+        width: 100%;
+        margin-top: 20px;
+        margin-right: 0px;
+        float: none;
+        border: 1px dotted #333;
+        padding: 10px;
+    }
+
+    #videoChat {
+        display: none;
+    }
+
+    #videoContainer {
+        width: 100%;
+        float:none;
+    }
+    #twitchPlayer {
+        width: 100%;
+        height: 250px;
+    }
+    #videoControls h2, .videoNav {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}

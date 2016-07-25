@@ -1,0 +1,308 @@
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0,0,0,0)!important;
+}
+html {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    background-color: #000E43;
+    background-image: radial-gradient(circle at top right,#01043B,#8BD4F1);
+
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+    opacity: 0.1;
+}
+
+.centered {
+    text-align: center;
+}
+
+.wrapper {
+    position:relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#sonyHeader {
+    position: relative;
+    background-color: #000000;
+    text-align: right;
+    padding-right: 30px;
+}
+#sonyHeader a {
+    display: inline-block;
+}
+
+
+#playstationHeader {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-image: -webkit-linear-gradient(top,#2b2b2b,#000001);
+    background-color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#playstationHeader select {
+    background: transparent;
+    background-color: #303030;
+    padding: 5px;
+    font-size: 14px;
+    line-height: 1;
+    border: solid 1px #171717;
+    border-radius: 0;
+    height: 38px;
+    color: #999;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#playstationHeader a {
+    display: inline-block;
+}
+
+.container {
+    position: relative;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.psLogo {
+    position: relative;
+    float: left;
+    width: 75px;
+    margin-left: 10px;
+}
+
+.twitchLogo {
+    position: relative;
+    float: right;
+    width: 125px;
+}
+
+.twitchLogo img {
+    height: 40px;
+}
+
+.twitchSearch {
+    position: relative;
+    float: right;
+    width: 585px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#twitchApiSearchQuery {
+    width: 480px;
+    background-color: #303030;
+    font-size: 14px;
+    border: solid 1px #171717;
+    color: #FFF;
+    padding: 10px;
+    margin-top: 2px;
+}
+
+.twitchSearchOptions {
+    display:inline-block;
+}
+
+.btn {
+    padding: 8px 15px;
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.3);
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-image: -webkit-linear-gradient(top,#008ae3,#0070c7);
+    background-color: #0070c7;
+    display: inline-block;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-image: -webkit-linear-gradient(top,#0070c7,#008ae3);
+}
+
+
+#submitSearch {
+
+}
+
+#twitchResults {
+    position:relative;
+    color: #FFF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+
+h3 {
+    font-weight: 300;
+}
+
+.twitchUi {
+    padding: 25px;
+    background-color: rgba(0,0,0, 0.50);
+    margin-bottom: 10px;
+}
+.ps4 {
+    margin-top: 45px;
+}
+
+.ps4 img {
+    max-width: 250px;
+}
+
+#errorMessage {
+    border: 1px dotted #FF0000;
+}
+
+#errorMessage h3 {
+    margin: 0px;
+}
+
+#resultsNav {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #000;
+    padding: 5px 15px 5px 15px;
+    color: #ccc;
+}
+
+#resultsTotal {
+    position: relative;
+    width: 45%;
+    float: left;
+}
+
+#resultsPagination {
+    position: relative;
+    width: 45%;
+    float: right;
+    text-align: right;
+}
+
+#resultsContainer {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.streamContainer {
+    position: relative;
+    width: 445px;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: left;
+    padding: 10px;
+    background-color: rgba(0,0,0, 0.50);
+
+}
+
+#resultsContainer .streamContainer:nth-child(even) {
+    margin-right: 0px;
+}
+
+
+.streamContainer h2 {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.streamImage img {
+    width: 100%;
+}
+
+.streamDetails {
+    position: relative;
+    margin-bottom: 15px;
+    color: #999;
+}
+
+#videoEmbed {
+    position: relative;
+    overflow: hidden;
+}
+
+#videoContainer {
+    position: relative;
+    width: 620px;
+    float: left;
+}
+
+#twitchPlayer {
+    width: 620px;
+    height: 378px;
+}
+
+#videoControls {
+    margin-bottom: 15px;
+}
+
+#videoControls h2 {
+    float: left;
+    width: 600px;
+    font-weight: 300;
+    margin: 0px;
+}
+
+.videoNav {
+    position: relative;
+    width:195px;
+    float: right;
+    text-align: right;
+}
+
+#videoChat {
+    position: relative;
+    width: 275px;
+    float: right;
+}
+
+#twitchChat {
+    width: 275px;
+    height: 378px;
+}
+
+.pageCount {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
