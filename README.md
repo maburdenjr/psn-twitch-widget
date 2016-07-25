@@ -7,6 +7,10 @@
 * Feel free to add more/better UI, as long as you include the mandatory elements
 * No frameworks like jQuery/AngularJS.  Just vanilla JS with XHR to hit the API.
 
+### Online Demo
+
+https://maburdenjr.github.io/psn-twitch-widget/s
+
 ### Screenshots from Completed Assessment
 
 ![PSN Twitch Api Widget](https://github.com/maburdenjr/psn-twitch-widget/blob/master/images/screenshot.png)
