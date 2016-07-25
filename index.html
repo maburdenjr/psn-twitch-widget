@@ -65,4 +65,57 @@
         </div>
     <script src="js/psntwitch.js"></script>
     </body>
+=======
+<body>
+<div id="sonyHeader">
+    <a href="http://www.sony.com"><img src="images/sony-logo.jpg" alt="Sony" title="Sony"></a>
+</div>
+<div id="playstationHeader">
+    <div class="psLogo"><a href="http://www.playstation.com"><img src="images/ps-logo.png" alt="PlayStation" title="PlayStation"></a></div>
+    <div class="twitchSearch">
+        <label for="twitchApiSearchQuery" class="hidden">Search Twitch</label>
+        <input placeholder="Search query..." type="text" id="twitchApiSearchQuery" autocomplete="off">
+        <a id="submitSearch" class="btn">Search</a>
+    </div>
+
+    <div class="twitchLogo"><a href="http://www.twitch.tv"><img src="images/twitch-logo.jpg" alt="Twitch" title="Twitch"></a></div>
+</div>
+<div id="twitchResults">
+    <div id="errorMessage" class="container twitchUi hidden">
+    </div>
+    <div id="introScreen" class="container twitchUi hidden">
+        <h1>With Twitch on PlayStation 4, you can broadcast your game with the touch of a button.</h1>
+        <h3 class="centered">Take a peek at what other players are broadcasting by using the search feature above.</h3>
+        <p class="centered ps4"><img src="images/ps4.png"></p>
+    </div>
+    <div id="loadingResults" class="container twitchUi hidden">
+        <h1>Hang tight, we're fetching your results...</h1>
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+        </div>
+    </div>
+    <div id="resultsView" class="container twitchUi hidden">
+        <div id="resultsNav">
+            <div id="resultsTotal"> </div>
+            <div id="resultsPagination"> </div>
+        </div>
+        <div id="resultsContainer">
+        </div>
+    </div>
+    <div id="videoEmbed" class="container twitchUi hidden">
+        <div id="videoControls" class="wrapper">
+            <h2 id="twitchTitle"></h2>
+            <div class="videoNav"><a id="viewResults" class="btn">Back to Search Results</a></div>
+        </div>
+
+        <div id="videoContainer">
+            <iframe id="twitchPlayer" frameborder="0" scrolling="no"></iframe>
+        </div>
+        <div id="videoChat">
+            <iframe id="twitchChat" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </div>
+</div>
+<script src="js/psntwitch.js"></script>
+</body>
 </html>
