@@ -9,7 +9,7 @@
 
 ### Online Demo
 
-https://maburdenjr.github.io/psn-twitch-widget/s
+https://maburdenjr.github.io/psn-twitch-widget/
 
 ### Screenshots from Completed Assessment
 
